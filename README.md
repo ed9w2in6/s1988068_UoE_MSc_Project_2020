@@ -15,8 +15,8 @@ Permission must be obtained from CEDA.
 
 For the Infenergy dataset, access to the School of Informatics Local Area Network is needed.
 Then, querying of the data can be referred to the github repository [davidcsterratt/infenergy](https://github.com/davidcsterratt/infenergy).
-**Alternatively**, with the right permission, the PostgreSQL database that contains the Infenergy data can be dumped.
-**This is the method used in the project and the codes.**
+_**Alternatively**, with the right permission_, the PostgreSQL database that contains the Infenergy data can be dumped.
+_**This is the method used in the project and the codes.**_
 For this, referred to my edited version of the github repository [ed9w2in6/infenergy](https://github.com/ed9w2in6/infenergy) to query to data.
 Instruction and requirements to use the repository are written, fixes are also added to deal with timezone differences are implemented as well to facilitate work in remote environment.
 
