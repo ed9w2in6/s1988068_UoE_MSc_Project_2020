@@ -64,7 +64,8 @@ The directory `src/` contontains the **main code used produce plots and to fit m
 
 #### `src/main_EDA_and_Modelling.ipynb` and `src/r_environment_setup_test.ipynb`
 
-The Jupyter notebook file `src/r_environment_setup_test.ipynb` should be run to **confirm the environment is correctly setup**, it should be no errors and a plot of the hourly electricity consumption of the day 2014-04-30 should be plotted.
+The Jupyter notebook file `src/r_environment_setup_test.ipynb` should be run to **confirm the environment is correctly setup**, there should be no errors and a plot of the hourly electricity consumption of the day 2014-04-30 should be plotted.
+
 The Jupyter notebook file `src/main_EDA_and_Modelling.ipynb` **contains all the codes ever used for producing the figures in the report, and all the models trained** for the projects.
 
 
