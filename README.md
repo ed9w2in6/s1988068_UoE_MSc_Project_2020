@@ -35,6 +35,10 @@ The files at the root directory of this repository are desribed in this section.
 ### `README.md`
 The markdown file `README.md` at is this file that you are currently reading.  It describes **notes and instruction to use the codes in this repository**.
 
+### `.DS_Store` and `.gitattributes`
+These files are are **not related to the project**.  They can be **ignored**.
+
+
 ### `2016_hourly_plots.ipynb` and `MIDAS_2016_daily_hourly_and_other_locations.ipynb`
 The Jupyter notebook files `2016_hourly_plots.ipynb` and `MIDAS_2016_daily_hourly_and_other_locations.ipynb` are used for **initial exploration to choose a weather station in Edinburgh to use**.
 
@@ -46,22 +50,22 @@ The YAML file `environment.yml` is created using the command `conda env export >
 ```shell
 conda env create -f environment.yml
 ```
-Note that the environment are originally setup in the following system information:
+Note that the environment are originally setup in the following **system information**:
 
 > MacOS version: 10.15.6（19G73）
 > zsh 5.7.1 (x86_64-apple-darwin19.0)
 > conda 4.8.4
 
-You must adjust the environment accordingly if there any errors.
+You **MUST** adjust the environment accordingly **if there are any errors**.
 
 ### `src/`
 
-The directory `src/` contontains the main code used produce plots and to fit models, also a testing code to ensure environment is correctly set up.
+The directory `src/` contontains the **main code used produce plots and to fit models, also a testing code to ensure environment is correctly set up**.
 
 #### `src/main_EDA_and_Modelling.ipynb` and `src/r_environment_setup_test.ipynb`
 
-The Jupyter notebook file `src/r_environment_setup_test.ipynb` should be run to confirm the environment is correctly setup, it should be no errors and a plot of the hourly electricity consumption of the day 2014-04-30 should be plotted.
-The Jupyter notebook file `src/main_EDA_and_Modelling.ipynb` contains all the codes ever used for producing the figures in the report, and all the models trained for the projects.
+The Jupyter notebook file `src/r_environment_setup_test.ipynb` should be run to **confirm the environment is correctly setup**, it should be no errors and a plot of the hourly electricity consumption of the day 2014-04-30 should be plotted.
+The Jupyter notebook file `src/main_EDA_and_Modelling.ipynb` **contains all the codes ever used for producing the figures in the report, and all the models trained** for the projects.
 
 
 
