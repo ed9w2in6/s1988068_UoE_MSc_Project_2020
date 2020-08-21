@@ -6,7 +6,7 @@
 
 ## Downloading Datasets
 
-**Dataset should be download sepeartely due to lisensing and permission issue.**
+**Dataset should be download separately due to licensing and permission issue.**
 
 
 
@@ -14,10 +14,10 @@ For the MIDAS dataset, download them from The CEDA Archive at [this link](https:
 Permission must be obtained from CEDA.
 
 For the Infenergy dataset, access to the School of Informatics Local Area Network is needed.
-Then, querying of the data can be referred to the github repository [davidcsterratt/infenergy](https://github.com/davidcsterratt/infenergy).
+Then, querying of the data can be referred to the GitHub repository [davidcsterratt/infenergy](https://github.com/davidcsterratt/infenergy).
 _**Alternatively**, with the right permission_, the PostgreSQL database that contains the Infenergy data can be dumped.
 _**This is the method used in the project and the codes.**_
-For this, referred to my edited version of the github repository [ed9w2in6/infenergy](https://github.com/ed9w2in6/infenergy) to query to data.
+For this, referred to my edited version of the GitHub repository [ed9w2in6/infenergy](https://github.com/ed9w2in6/infenergy) to query to data.
 Instruction and requirements to use the repository are written, fixes are also added to deal with timezone differences are implemented as well to facilitate work in remote environment.
 
 
