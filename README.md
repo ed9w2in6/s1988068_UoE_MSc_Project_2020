@@ -46,7 +46,9 @@ conda env create -f environment.yml
 Note that the environment are originally setup in the following **system information**:
 
 > MacOS version: 10.15.6（19G73）
+>
 > zsh 5.7.1 (x86_64-apple-darwin19.0)
+>
 > conda 4.8.4
 
 You **MUST** adjust the environment accordingly **if there are any errors**.
