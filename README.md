@@ -26,10 +26,12 @@ Instruction and requirements to use the repository are written, fixes are also a
 The files at the root directory of this repository are desribed in this section.
 
 ### `README.md`
+
 The markdown file `README.md` at is this file that you are currently reading.  It describes **notes and instruction to use the codes in this repository**.
 
-### `.DS_Store` and `.gitattributes`
-These files are are **not related to the project**.  They can be **ignored**.
+### `.git/`, `.DS_Store` and `.gitattributes`
+
+These directories and files are **not related to the project**.  They can be **ignored**.
 
 
 ### `2016_hourly_plots.ipynb` and `MIDAS_2016_daily_hourly_and_other_locations.ipynb`
@@ -55,7 +57,11 @@ You **MUST** adjust the environment accordingly **if there are any errors**.
 
 ### `src/`
 
-The directory `src/` contontains the **main code used produce plots and to fit models, also a testing code to ensure environment is correctly set up**.
+The directory `src/` contains the **main code used produce plots and to fit models, also a testing code to ensure environment is correctly set up**.
+
+#### `src/.DS_Store`
+
+This file is **not related to the project**.  It can be **ignored**.
 
 #### `src/main_EDA_and_Modelling.ipynb` and `src/r_environment_setup_test.ipynb`
 
