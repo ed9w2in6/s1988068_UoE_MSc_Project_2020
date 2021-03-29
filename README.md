@@ -41,6 +41,9 @@ The Jupyter notebook files `2016_hourly_plots.ipynb` and `MIDAS_2016_daily_hourl
 The Jupyter notebook files `extraction.ipynb` and `Combining.ipynb` are used for the **pre-preocessing** of the **MIDAS and Infenergy dataset**.  `extraction.ipynb` is used for **data extraction of the chosen weather station -- Gogar Bank** from the larger complete MIDAS `UK Hourly Weather data` and `UK Hourly Rainfall data`.  `Combining.ipynb` is used to **import Infenergy dataset from a local PostgreSQL server** created from a dump of the one at the LAN of School of Informatics; `Combining.ipynb` is also used to combine the Infenergy dataset with the extracted Gogar Bank weather station data to create a **unified dataset of weather variables and electricity consumption of the Informatics Forum**.
 
 ### `environment.yml`
+
+> Alternatively, you can create the environment via `conda create -n r r-base r-rpostgresql r-devtools r-irkernel rpy2 notebook numpy pandas scikit-learn seaborn windrose conda-tree`, which works fine as of 29th March, 2021.
+
 The YAML file `environment.yml` is created using the command `conda env export > environment.yml`.  It can be used to **recreate the Conda environment via Miniconda** using the following command.
 ```shell
 conda env create -f environment.yml
